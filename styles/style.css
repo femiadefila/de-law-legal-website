@@ -134,7 +134,7 @@ nav svg {
   background-color: #fff;
   margin: 10px;
   border-radius: 20px;
-  transition: 0.5s;
+  transition: 0.6s;
 }
 .slider .dots li.active {
   width: 30px;

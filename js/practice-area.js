@@ -21,6 +21,12 @@ fetch("../practice-area.json")
             contactButton.textContent = "Contact Us";
             contactButton.classList.add("contact-button");
 
+           
+            contactButton.addEventListener("click", function() {
+               
+                window.location.href = "http://127.0.0.1:5500/contact.html"; 
+            });
+
             productElement.appendChild(imageElement);
             productElement.appendChild(titleElement);
             productElement.appendChild(descriptionElement);
