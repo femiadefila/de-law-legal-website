@@ -1,0 +1,55 @@
+[
+  {
+    "image": "../images/img07.png",
+    "title": "Civil Law",
+    "description": "Civil Law: At De-Law Legal Practice, we understand the importance of navigating the intricate landscape of civil law with precision and expertise. Civil law encompasses a wide range of legal matters, including contracts, property disputes, personal injury claims, and family law issues"
+  },
+
+  {
+    "image": "../images/img08.png",
+    "title": "Cyber Law",
+    "description": "Cyber Law: In today's digital age, navigating the complexities of cyberspace requires expert legal guidance. At De-Law Legal Practice, we specialize in cyber law, offering comprehensive services to address the legal challenges arising from the digital realm."
+  },
+
+  {
+    "image": "../images/img09.png",
+    "title": "Business Law",
+    "description": "Business Law: De-Law Legal Practice is your trusted partner in navigating the complexities of business law. Our experienced attorneys specialize in providing comprehensive legal services tailored to the needs of businesses of all sizes.."
+  },
+
+  {
+    "image": "../images/img01.jpg",
+    "title": "Coporate & Securities",
+    "description": "Corporate & Securities: At De-Law Legal Practice, we understand the intricate landscape of corporate governance and securities regulations. Our team of seasoned attorneys is committed to providing comprehensive legal services tailored to meet the needs of corporations, financial institutions, and individuals."
+  },
+
+  {
+    "image": "../images/img02.jpg",
+    "title": "Real-Estate Law",
+    "description": "Real Estate Law: De-Law Legal Practice is your trusted partner for navigating the complex legal landscape of real estate transactions and disputes. Whether you are buying, selling, leasing, or developing real estate property, our team of experienced attorneys is here to provide you with expert guidance and representation."
+  },
+
+  {
+    "image": "../images/img03.png",
+    "title": "Health-Care Law",
+    "description": "Healthcare Law: At De-Law Legal Practice, we understand the unique legal challenges facing the healthcare industry. With extensive experience in healthcare law, our team is dedicated to providing comprehensive legal services to healthcare providers, organizations, and professionals. We assist clients with a wide range of healthcare-related matters."
+  },
+
+  {
+    "image": "../images/img04.jpg",
+    "title": "Tax Law",
+    "description": "Tax Law: At De-Law Legal Practice, we offer comprehensive legal services tailored to meet the needs of individuals, businesses, and organizations navigating the complexities of tax law. Our team of experienced tax attorneys provides strategic guidance and representation in a wide range of tax-related matters."
+  },
+
+  {
+    "image": "../images/img05.jpg",
+    "title": "Insurance Law",
+    "description": "At De-Law Legal Practice, we specialize in providing expert legal guidance and representation in matters related to insurance law. Our team of seasoned attorneys offers comprehensive services to both policyholders and insurance companies, ensuring that our clients' rights and interests are protected."
+  },
+
+  {
+    "image": "../images/img06.png",
+    "title": "E-commerce Law",
+    "description": "Ecommerce Law: In today's digital age, conducting business online has become increasingly prevalent, bringing forth a unique set of legal considerations and challenges. At De-Law Legal Practice, we are well-versed in the complexities of ecommerce law and offer comprehensive legal services to businesses operating in the digital marketplace."
+  }
+]

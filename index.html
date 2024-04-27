@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>De-Law Legal Website</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation Bar -->
+      <nav>
+        <!-- Logo -->
+        <img src="images/logo.png" alt="Logo" class="logo" />
+
+        <!-- Sidebar Toggle Button -->
+        <input type="checkbox" id="sidebar-active" />
+        <label for="sidebar-active" class="open-sidebar-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+          >
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
+          </svg>
+        </label>
+
+        <!-- Navigation Links -->
+        <div class="links-container">
+          <!-- Close Sidebar Button -->
+          <label for="sidebar-active" class="close-sidebar-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"
+              />
+            </svg>
+          </label>
+
+          <!-- Navigation Links -->
+          <a href="index.html">Home</a>
+          <a href="practice-area.html">Practice-Area</a>
+          <a href="attorneys.html">Attorneys</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Slider with text & button -->
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <div class="overlay"></div>
+          <img src="images/slider-1.jpg" alt="" />
+          <div class="caption">
+            <!-- Slider-Heading -->
+            <h2>We Provide Legal Help For You</h2>
+            <p>
+              <!-- Description -->
+              Navigate the complexities of law with ease. At our firm, we're
+              dedicated to providing tailored legal solutions that prioritize
+              your needs. From consultations to courtroom representation, trust
+              us to guide you through every step of your legal journey.
+            </p>
+            <button class="btn primary">Consultation</button>
+            <button class="btn secondary">Practice Area</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="overlay"></div>
+          <img src="images/slider-2.jpg" alt="" />
+          <div class="caption">
+            <!-- Slider-Heading -->
+            <h2>Attorneys Fight For Your Justice</h2>
+            <!-- Description -->
+            <p>
+              Empower your voice in the courtroom. Our dedicated team of
+              attorneys fights tirelessly to secure the justice you deserve.
+              With unwavering dedication and expertise, we stand by your side,
+              ensuring your rights are protected every step of the way.
+            </p>
+            <button class="btn primary">Consultation</button>
+            <button class="btn secondary">Practice Area</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="overlay"></div>
+          <img src="images/slider-3.jpg" alt="" />
+          <div class="caption">
+            <!-- Slider-Heading -->
+            <h2>It's Our Pride To Fight For Your Dream</h2>
+            <!-- Description -->
+            <p>
+              Championing your dreams is our honor. At our firm, it's not just
+              about legal battles; it's about fighting for your aspirations.
+              With a blend of passion and expertise, we stand ready to protect
+              your dreams and pursue the justice you deserve
+            </p>
+            <button class="btn primary">Consultation</button>
+            <button class="btn secondary">Practice Area</button>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+      <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- About-Us-Section -->
+    <section class="about-us">
+      <div class="container">
+        <div class="about-content">
+          <div class="image">
+            <img src="images/about.png" alt="About Us Image" />
+          </div>
+          <div class="text">
+            <h3>About Us</h3>
+            <h1>We Are Top Lawyers With <span>25 Years</span> Of Experience</h1>
+            <p>
+              We are a team of experienced attorneys dedicated to providing
+              exceptional legal services to our clients. With a focus on
+              integrity, professionalism, and results, we strive to meet the
+              unique needs of each individual we represent.
+            </p>
+            <p>
+              Our firm specializes in various practice areas, including but not
+              limited to:
+            </p>
+            <ul>
+              <li>1. Personal Injury</li>
+              <li>2. Criminal Defense</li>
+              <li>3. Family Law</li>
+              <li>4. Business Law</li>
+            </ul>
+            <!-- Call to action -->
+            <p>
+              Whether you're facing a legal challenge or seeking proactive legal
+              advice, we're here to help. Contact us today to schedule a
+              consultation.
+            </p>
+            <!-- Button for free consultation -->
+            <button class="btn aboutt">Free Consultation</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card area for displaying services -->
+    <section>
+      <div id="card-area">
+        <!-- Section heading -->
+        <div class="services"><h3>Our Services</h3></div>
+        <!-- First wrapper for organizing boxes -->
+        <div class="wrapper">
+          <div class="box-area">
+            <div class="box">
+              <img alt="" src="images/img01.jpg" />
+              <div class="overlay">
+                <h3>COPORATE & SECURITIES</h3>
+                <a href="#">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="box">
+              <img alt="" src="images/img02.jpg" />
+              <div class="overlay">
+                <h3>REAL ESTATE LAW</h3>
+                <a href="#">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="box">
+              <img alt="" src="images/img03.png" />
+              <div class="overlay">
+                <h3>HEALTHCARE LAW</h3>
+                <a href="#">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second wrapper for organizing boxes -->
+        <div class="wrapper">
+          <div class="box-area">
+            <div class="box">
+              <img alt="" src="images/img04.jpg" />
+              <div class="overlay">
+                <h3>TAX LAW</h3>
+                <a href="#">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="box">
+              <img alt="" src="images/img05.jpg" />
+              <div class="overlay">
+                <h3>INSURANCE LAW</h3>
+                <a href="#">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="box">
+              <img alt="" src="images/img06.png" />
+              <div class="overlay">
+                <h3>E-COMMERCE LAW</h3>
+                <a href="#">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section__container">
+        <div class="header">
+          <h3>TESTIMONIALS<h3>
+          <h1>What our clients say about us.</h1>
+        </div>
+        <div class="testimonials__grid">
+          <div class="card">
+            <p>
+              I've been working with Obianuju's firm for several years now, and I can confidently say that my legal matters are in the best hands. Their dedication and expertise have provided me with unparalleled support through various challenges.
+            </p>
+            <hr/>
+            <img src="images/pic-1.png" alt="user" />
+            <p class="name">Allan Collins</p>
+          </div>
+          <div class="card">
+            <p>
+              Working with De-Law Legal Practice has been an outstanding experience; every legal issue is addressed and resolved swiftly and professionally.
+            </p>
+            <hr/>
+            <img src="images/pic-2.png" alt="user" />
+            <p class="name">Clay Washington</p>
+          </div>
+          <div class="card">
+            <p>
+              My experience with De-Law Legal Practice has been an absolute game-changer for me. Their seamless approach and expertise in handling tax matters have alleviated all my concerns.
+            <hr />
+            <img src="images/pic-3.png" alt="user" />
+            <p class="name">Tanya Grant</p>
+          </div>
+        </div>
+        <div class="base">
+          <h4>Are you seeking for help?</h4>
+          <p>
+            Our Elite team, combined with your personal needs, allows us to
+            create a base plan specifically tailored to you.
+          </p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="row">
+          <div class="footer-col">
+            <img src="images/footer-logo.png" alt="Logo" class="logo" />
+           <p>Empowering Justice, Protecting Rights – Your Trusted Legal Partner at De-Law Legal Practice</p>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Practice-area</a></li>
+              <li><a href="#">Attorney</a></li>
+              <li><a href="#">Contact Us</a></li>>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Info</h4>
+            <ul>
+              <li>Box 3233</li>
+              <li>1810 Kings Way</li>
+              <li>King Street, 5th Avenue, London</li>
+              <li>+44 7552 540325</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+ 
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
