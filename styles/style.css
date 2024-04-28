@@ -611,10 +611,10 @@ ul {
     transition: 0.53s ease-out;
   }
 
-  /* .slider {
+  .slider {
     height: 400px;
     z-index: 5;
-  } */
+  }
 
   nav a {
     box-sizing: border-box;
@@ -698,7 +698,7 @@ ul {
   }
 }
 
-/* @media (width < 900px) {
+@media (width < 900px) {
   .testimonials__grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -715,7 +715,7 @@ ul {
   .testimonials__grid {
    display: block;
   }
-} */
+}
 
 @media (max-width: 767px) {
   .footer-col {
