@@ -611,10 +611,10 @@ ul {
     transition: 0.53s ease-out;
   }
 
-  .slider {
+  /* .slider {
     height: 400px;
     z-index: 5;
-  }
+  } */
 
   nav a {
     box-sizing: border-box;
